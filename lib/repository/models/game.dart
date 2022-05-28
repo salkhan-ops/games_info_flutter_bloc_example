@@ -35,7 +35,7 @@ class Game {
   final Filters? filters;
   final List<String>? nofollowCollections;
 
-  static const empty = Game(
+  static  var empty = Game(
     count: 0,
     next: '',
     previous: 0,
